@@ -1,10 +1,10 @@
-# DNC Blog - Design System Responsivo �
+# DNC Blog - Design System Responsivo 
 
-## 🎯 Sobre o Projeto
+##  Sobre o Projeto
 
 Este é um blog moderno desenvolvido seguindo as diretrizes de design da **DNC - Escola de Tecnologia**, implementando um sistema de design completo e totalmente responsivo que se adapta perfeitamente a todos os dispositivos, de smartphones a monitores ultrawide.
 
-## ✨ Principais Características
+##  Principais Características
 
 ### 🎨 **Design System DNC**
 - **Identidade visual** consistente com as cores oficiais da DNC
@@ -20,7 +20,7 @@ Este é um blog moderno desenvolvido seguindo as diretrizes de design da **DNC -
 - **Imagens responsivas** com lazy loading
 - **Navegação otimizada** para touch e desktop
 
-### �️ **Estrutura Técnica**
+### **Estrutura Técnica**
 
 #### **HTML5 Semântico Completo**
 - ✅ Tags semânticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
@@ -166,7 +166,7 @@ DNC Blog Responsivo/
 
 ---
 
-## 📞 Suporte Técnico
+
 
 Desenvolvido seguindo as melhores práticas de **desenvolvimento front-end** e as diretrizes de design da **DNC - Escola de Tecnologia**.
 
@@ -174,10 +174,4 @@ Desenvolvido seguindo as melhores práticas de **desenvolvimento front-end** e a
 
 ---
 
-### 🎯 **Próximos Passos**
-- [ ] Integração com CMS
-- [ ] Sistema de busca
-- [ ] Comentários interativos
-- [ ] PWA (Progressive Web App)
-- [ ] Sistema de tags
-- [ ] Modo escuro automático
+
