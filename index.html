@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Responsivo - DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>DNC Blog</h1>
+                <span class="tagline">Escola de Tecnologia</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" role="navigation">
+        <div class="nav-container">
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="#" class="nav-link">Artigos</a></li>
+                <li><a href="#" class="nav-link">Cursos</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <section class="content-area">
+            <article class="featured-post">
+                <div class="post-image">
+                    <img src="imagens/estampa enoc.png" alt="Desenvolvimento Web Moderno" />
+                    <div class="post-category-badge">Destaque</div>
+                </div>
+                <div class="post-content">
+                    <header class="post-header">
+                        <h2>Desenvolvimento Web Moderno: HTML5, CSS3 e Responsividade</h2>
+                        <div class="post-meta">
+                            <time datetime="2025-07-19">19 de julho, 2025</time>
+                            <span class="post-author">Por: Equipe DNC</span>
+                        </div>
+                    </header>
+                    
+                    <div class="post-excerpt">
+                        <p>Descubra as técnicas mais avançadas para criar websites responsivos e modernos. Aprenda a usar HTML5 semântico, CSS3 com Grid e Flexbox, e as melhores práticas para desenvolvimento front-end.</p>
+                        
+                        <p>Neste artigo completo, você vai aprender desde os fundamentos até técnicas avançadas de responsividade, garantindo que seus projetos funcionem perfeitamente em qualquer dispositivo.</p>
+                    </div>
+                    
+                    <a href="#" class="read-more-btn">Ler artigo completo</a>
+                </div>
+            </article>
+
+            <section class="recent-posts">
+                <h3>Artigos Recentes</h3>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="card-image">
+                            <img src="imagens/Elonmusk.png" alt="JavaScript ES6+" />
+                        </div>
+                        <div class="card-content">
+                            <h4>JavaScript ES6+: Recursos Essenciais</h4>
+                            <p>Explore as funcionalidades mais importantes do JavaScript moderno.</p>
+                            <div class="card-meta">
+                                <time datetime="2025-07-15">15 jul, 2025</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="card-image">
+                            <img src="imagens/Bola pegando FOgo.avif" alt="React.js" />
+                        </div>
+                        <div class="card-content">
+                            <h4>React.js: Componentes e Hooks</h4>
+                            <p>Domine os conceitos fundamentais do React para criar aplicações modernas.</p>
+                            <div class="card-meta">
+                                <time datetime="2025-07-10">10 jul, 2025</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="card-image">
+                            <img src="imagens/ChatGPT Image 9 de abr. de 2025, 12_46_29.png" alt="CSS Grid" />
+                        </div>
+                        <div class="card-content">
+                            <h4>CSS Grid e Flexbox: Guia Completo</h4>
+                            <p>Aprenda a criar layouts profissionais com as ferramentas mais poderosas do CSS.</p>
+                            <div class="card-meta">
+                                <time datetime="2025-07-05">05 jul, 2025</time>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <aside class="sidebar" role="complementary">
+            <section class="widget about-widget">
+                <h3>Sobre a DNC</h3>
+                <div class="about-content">
+                    <p>A DNC é uma escola de tecnologia focada em formar os melhores profissionais do mercado tech.</p>
+                    <p>Nossos cursos são práticos e atualizados com as demandas do mercado.</p>
+                    <a href="#" class="cta-button">Conheça nossos cursos</a>
+                </div>
+            </section>
+
+            <section class="widget categories-widget">
+                <h3>Categorias</h3>
+                <ul class="categories-list">
+                    <li><a href="#" class="category-link">
+                        <span class="category-name">Front-end</span>
+                        <span class="post-count">12</span>
+                    </a></li>
+                    <li><a href="#" class="category-link">
+                        <span class="category-name">Back-end</span>
+                        <span class="post-count">8</span>
+                    </a></li>
+                    <li><a href="#" class="category-link">
+                        <span class="category-name">Mobile</span>
+                        <span class="post-count">5</span>
+                    </a></li>
+                    <li><a href="#" class="category-link">
+                        <span class="category-name">DevOps</span>
+                        <span class="post-count">3</span>
+                    </a></li>
+                    <li><a href="#" class="category-link">
+                        <span class="category-name">UX/UI Design</span>
+                        <span class="post-count">7</span>
+                    </a></li>
+                </ul>
+            </section>
+
+            <section class="widget newsletter-widget">
+                <h3>Newsletter</h3>
+                <div class="newsletter-content">
+                    <p>Receba as novidades do mundo tech direto no seu e-mail!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu melhor e-mail" required />
+                        <button type="submit">Inscrever</button>
+                    </form>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DNC - Escola de Tecnologia</h4>
+                    <p>Transformando carreiras através da educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DNC - Escola de Tecnologia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
