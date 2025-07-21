@@ -174,4 +174,20 @@ Desenvolvido seguindo as melhores práticas de **desenvolvimento front-end** e a
 
 ---
 
+## 🔄 Atualizações Recentes
+
+### v2.1 - Melhorias de Profile (Julho 2025)
+- ✨ **Profile Enhancement**: Atualização completa do README com perfil profissional
+- 🎨 **Visual Improvements**: Adição de badges modernos e estatísticas GitHub
+- 📊 **GitHub Stats**: Implementação de estatísticas dinâmicas e streak counter
+- 🚀 **Career Focus**: Seções dedicadas a objetivos profissionais e especialidades
+- 💼 **Professional Layout**: Estrutura otimizada para networking e oportunidades
+
+### Próximas Features
+- [ ] Implementação de tema escuro
+- [ ] Adição de mais projetos ao portfólio
+- [ ] Integração com API do GitHub para dados dinâmicos
+
+---
+
 
